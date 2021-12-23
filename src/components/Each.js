@@ -3,12 +3,12 @@ import PropTypes from 'prop-types';
 import { FaArrowRight } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
 
-const Each = ({
+const Each = function ({
   name,
   price,
   index,
   company,
-}) => {
+}) {
   let boxStyle = 'oddBox';
 
   if (index % 2 === 0) {

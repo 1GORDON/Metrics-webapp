@@ -1,4 +1,5 @@
 const COMPANY_FINANCES = 'app/company/FETCH_FINANCES';
+// const COMPANY_DETAILS = 'app/company/FETCH_DETAILS';
 
 const initialState = {};
 

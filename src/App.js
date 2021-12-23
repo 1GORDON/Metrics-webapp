@@ -3,8 +3,8 @@ import { Switch, Route } from 'react-router';
 import Main from './pages/Main';
 import Company from './pages/Company';
 
-const App = () => (
-  <>
+const App = function () {
+  return (
     <Switch>
       <Route path="/company:name">
         <Company />
@@ -16,7 +16,7 @@ const App = () => (
         <Main />
       </Route>
     </Switch>
-  </>
-);
+  );
+};
 
 export default App;

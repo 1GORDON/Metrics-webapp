@@ -78,15 +78,15 @@ const CompanyBanner = ({
   );
 };
 
-CompanyBanner.PropTypes = {
-    name: PropTypes.string.isRequired,
-    image: PropTypes.string.isRequired,
-    exchange: PropTypes.string.isRequired,
-    sector: PropTypes.string.isRequired,
-    price: PropTypes.number.isRequired,
-    volAvg: PropTypes.number.isRequired,
-    description: PropTypes.string,isRequired,
-    website: PropTypes.string.isRequired,
+CompanyBanner.propTypes = {
+  name: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+  exchange: PropTypes.string.isRequired,
+  sector: PropTypes.string.isRequired,
+  price: PropTypes.number.isRequired,
+  volAvg: PropTypes.number.isRequired,
+  description: PropTypes.string.isRequired,
+  website: PropTypes.string.isRequired,
 };
 
 export default CompanyBanner;

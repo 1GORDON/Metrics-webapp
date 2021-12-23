@@ -5,7 +5,7 @@ import { fetchCompanyFinancials } from '../redux/company/company';
 import CompanyPage from '../components/CompanyPage';
 import '../components/company.css';
 
-const Company = () => {
+const Company = function () {
   const data = useLocation();
   const url = window.location.href;
   const newString = url.substring(39);
@@ -25,9 +25,7 @@ const Company = () => {
     setState(companyData);
   }, 2000);
   return (
-    <>
-      <CompanyPage info={newState} symbol={symbol} />
-    </>
+    <CompanyPage info={newState} symbol={symbol} />
   );
 };
 
