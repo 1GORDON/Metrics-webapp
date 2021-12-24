@@ -30,8 +30,7 @@ const reducer = (state = initialState, action) => {
       return {
         payload: action.payload,
       };
-    default:
-      return state;
+    default: return state;
   }
 };
 

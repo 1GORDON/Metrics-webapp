@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const CompanyBanner = ({
+const CompanyBanner = function ({
   name,
   image,
   exchange,
@@ -10,7 +10,7 @@ const CompanyBanner = ({
   description,
   volAvg,
   website,
-}) => {
+}) {
   const newdes = description.split(/\s+/).slice(0, 35).join(' ');
   return (
     <div className="parent-banner-div">
