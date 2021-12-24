@@ -11,6 +11,7 @@ In this project, I achieved the following
 
 ## Live Demo
 
+- [View project Live](https://metrics-webapp-gordon.netlify.app/)
 
 ## Video Link
 
