@@ -5,7 +5,7 @@ import { fetchCompanyFinancials } from '../redux/company/company';
 import CompanyPage from '../components/CompanyPage';
 import '../components/company.css';
 
-const Company = function () {
+const Company = function myProject3() {
   const data = useLocation();
   const url = window.location.href;
   const newString = url.substring(39);

@@ -6,7 +6,7 @@ import CompanyBanner from './CompanyBanner';
 import FinanceHeading from './FinanceHeading';
 import FinanceSection from './FinanceSection';
 
-const CompanyPage = function ({ info, symbol }) {
+const CompanyPage = function myProject10({ info, symbol }) {
   const companyInformation = info.responseFinancials;
   const companyFinanceInfo = info.responseData;
 

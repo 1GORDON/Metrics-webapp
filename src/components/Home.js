@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Each from './Each';
 
-const Home = function ({ nasdaq }) {
+const Home = function myProject5({ nasdaq }) {
   const companies = nasdaq;
   companies.sort((a, b) => b.changesPercentage - a.changesPercentage);
   return (

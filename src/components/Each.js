@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { FaArrowRight } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
 
-const Each = function ({
+const Each = function myProject8({
   name,
   price,
   index,

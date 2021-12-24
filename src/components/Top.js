@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaMicrophone, FaCog } from 'react-icons/fa';
 
-const Top = function () {
+const Top = function myProject4() {
   return (
     <div className="top-body">
       <div className="holder">

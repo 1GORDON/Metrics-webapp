@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import './company.css';
 import { FaMicrophone, FaCog, FaArrowLeft } from 'react-icons/fa';
 
-const CompanyTop = function ({ symbol }) {
+const CompanyTop = function myProject9({ symbol }) {
   return (
     <div className="top-banner-parent">
       <div className="flex-company-banner">

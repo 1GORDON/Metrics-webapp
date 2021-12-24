@@ -5,7 +5,7 @@ import Top from '../components/Top';
 import Home from '../components/Home';
 import cover from '../assets/cover.jpg';
 
-const Main = function () {
+const Main = function myProject2() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(listAPIcall());

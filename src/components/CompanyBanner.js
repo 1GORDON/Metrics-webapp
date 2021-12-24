@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const CompanyBanner = function ({
+const CompanyBanner = function myProject11({
   name,
   image,
   exchange,
