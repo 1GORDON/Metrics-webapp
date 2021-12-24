@@ -14,22 +14,4 @@ const App = function () {
   );
 };
 
-// const App = function () {
-//   return (
-//     <Router>
-//       <Routes>
-//         <Route path="/company:name">
-//           <Company />
-//         </Route>
-//         <Route path="/company">
-//           <Company />
-//         </Route>
-//         <Route exact path="/">
-//           <Main />
-//         </Route>
-//       </Routes>
-//     </Router>
-//   );
-// };
-
 export default App;
