@@ -11,7 +11,6 @@ In this project, I achieved the following
 
 ## Live Demo
 
-- [Live Link](https://bookstore-style.netlify.app/)
  
 ## Video Link
 
