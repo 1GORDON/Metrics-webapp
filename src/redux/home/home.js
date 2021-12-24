@@ -14,7 +14,7 @@ export const listAPIcall = () => async (dispatch) => {
     method: 'GET',
     redirect: 'follow',
   };
-  const finalData = await fetch('https://financialmodelingprep.com/api/v3/gainers?apikey=70b9bd945b8252537780413eb681a7d1', requestOptions);
+  const finalData = await fetch('https://financialmodelingprep.com/api/v3/gainers?apikey=d93053dfe1909a2395cd527d59b36884', requestOptions);
   const data = await finalData.json();
   dispatch(fetchData(data));
 };

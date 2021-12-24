@@ -1,8 +1,12 @@
-import { applyMiddleware, createStore, combineReducers } from 'redux';
+import {
+  applyMiddleware, createStore, combineReducers,
+} from 'redux';
 import logger from 'redux-logger';
 import thunk from 'redux-thunk';
 import countriesReducer from './home/home';
 import companyReducer from './company/company';
+
+const middlewareList = [thunk, logger];
 
 const reducer = combineReducers({
   countriesReducer,
@@ -11,7 +15,7 @@ const reducer = combineReducers({
 
 const store = createStore(
   reducer,
-  applyMiddleware(logger, thunk),
+  applyMiddleware(...middlewareList),
 );
 
 export default store;

@@ -12,8 +12,8 @@ export const fetchCompanyFinancials = (symbol) => async (dispatch) => {
     method: 'GET',
     redirect: 'follow',
   };
-  const details = await fetch(`https://financialmodelingprep.com/api/v3/ratios-ttm/${symbol}?apikey=70b9bd945b8252537780413eb681a7d1`, requestOptions);
-  const finances = await fetch(`https://financialmodelingprep.com/api/v3/profile/${symbol}?apikey=70b9bd945b8252537780413eb681a7d1`, requestOptions);
+  const details = await fetch(`https://financialmodelingprep.com/api/v3/ratios-ttm/${symbol}?apikey=d93053dfe1909a2395cd527d59b36884`, requestOptions);
+  const finances = await fetch(`https://financialmodelingprep.com/api/v3/profile/${symbol}?apikey=d93053dfe1909a2395cd527d59b36884`, requestOptions);
   const responseFinancials = await finances.json();
   const responseData = await details.json();
   const obj = {

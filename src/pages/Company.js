@@ -9,7 +9,10 @@ const Company = function () {
   const data = useLocation();
   const url = window.location.href;
   const newString = url.substring(39);
-  let symbol = data.name;
+
+  const splitSymbolArr = data.pathname.split('/');
+  let symbol = splitSymbolArr[splitSymbolArr.length - 1];
+
   if (typeof symbol === 'undefined') {
     symbol = newString;
   }

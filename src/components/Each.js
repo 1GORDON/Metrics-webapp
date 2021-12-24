@@ -20,8 +20,7 @@ const Each = function ({
       <NavLink
         className="navLink"
         to={{
-          pathname: `/company${name}`,
-          name,
+          pathname: `company/${name}`,
         }}
       >
         <h4 className="companyName">{company}</h4>
