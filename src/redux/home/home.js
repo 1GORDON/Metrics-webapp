@@ -1,10 +1,10 @@
-const COUNTRIES = 'app/home/FETCH-COUNTRIES';
+const COMPANIES = 'app/home/FETCH-COMPANIES';
 
 const initialState = [];
 
 const fetchData = (payload) => (
   {
-    type: COUNTRIES,
+    type: COMPANIES,
     payload,
   }
 );
@@ -21,7 +21,7 @@ export const listAPIcall = () => async (dispatch) => {
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
-    case COUNTRIES:
+    case COMPANIES:
       return action.payload;
     default:
       return state;
