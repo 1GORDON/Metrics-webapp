@@ -3,11 +3,11 @@
 In this project, I achieved the following
 
 - Built a web application to check a list of metrics with React and Redux.
-- The data retrieved from the API should be stores in the Redux store.
-- Filtered the data that retrieved from the API using a Filter stateless component.
+- The data retrieved from the API is stored in the Redux store.
+- Filtered the data retrieved from the API using a Filter stateless component.
 - Every page has a unique route within the SPA.
 - Added unit tests.
-- Deployed the project with netlify.
+- Deployed the project.
 
 ## Live Demo
 
