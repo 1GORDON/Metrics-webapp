@@ -12,7 +12,6 @@ exports[`Each company page render 1`] = `
       className="active"
       href="/"
       onClick={[Function]}
-      style={Object {}}
     >
       <svg
         fill="currentColor"
@@ -95,7 +94,6 @@ Array [
         className="active"
         href="/"
         onClick={[Function]}
-        style={Object {}}
       >
         <svg
           fill="currentColor"
@@ -200,7 +198,7 @@ exports[`company page banner render 1`] = `
       className="banner-img"
     >
       <img
-        alt="company logo"
+        alt="company logo N/A"
         src="https://financialmodelingprep.com/image-stock/GRVI.png"
       />
     </div>

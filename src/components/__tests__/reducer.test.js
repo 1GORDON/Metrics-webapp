@@ -27,10 +27,10 @@ describe('Test', () => {
 
 describe('Mock Companies Reducer', () => {
   test('Test Companies Reducer With Mock Data', () => {
-    const COMPANIES = 'app/home/FETCH-COMPANY';
+    const COUNTRIES = 'app/home/FETCH-COUNTRIES';
     const store = mockStore;
     const action = {
-      type: COMPANIES,
+      type: COUNTRIES,
       payload: {
         countriesReducer: [
           {
