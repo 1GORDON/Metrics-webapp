@@ -55,6 +55,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- [Nelson Sakawa at Behance](https://www.behance.net/sakwadesignstudio).
+
 - Microverse
 
 ## 📝 License
