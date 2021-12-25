@@ -3,7 +3,6 @@ import renderer from 'react-test-renderer';
 import { Provider } from 'react-redux';
 import { BrowserRouter as Routes } from 'react-router-dom';
 import store from '../../redux/configureStore';
-// import App from '../../App';
 import Main from '../../pages/main';
 import Each from '../Each';
 import Home from '../Home';
